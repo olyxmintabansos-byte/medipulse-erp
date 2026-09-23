@@ -5,6 +5,7 @@ import { Navbar } from '@/components/layout/Navbar';
 import { Sidebar } from '@/components/layout/Sidebar';
 import { OverviewDashboard } from '@/components/dashboard/OverviewDashboard';
 import { ReceptionView } from '@/components/reception/ReceptionView';
+import { DoctorStationView } from '@/components/doctor/DoctorStationView';
 import { ActiveTab } from '@/types/medipulse';
 import { Construction } from 'lucide-react';
 
@@ -30,7 +31,9 @@ export default function HomePage() {
 
           {activeTab === 'reception' && <ReceptionView />}
 
-          {activeTab !== 'overview' && activeTab !== 'reception' && (
+          {activeTab === 'doctor' && <DoctorStationView />}
+
+          {activeTab !== 'overview' && activeTab !== 'reception' && activeTab !== 'doctor' && (
             <div className="p-8 max-w-4xl mx-auto text-center mt-12">
               <div className="h-16 w-16 bg-slate-900 border border-slate-800 rounded-2xl flex items-center justify-center mx-auto mb-4 text-cyan-400">
                 <Construction className="h-8 w-8 animate-bounce" />
