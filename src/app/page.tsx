@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { Navbar } from '@/components/layout/Navbar';
 import { Sidebar } from '@/components/layout/Sidebar';
 import { OverviewDashboard } from '@/components/dashboard/OverviewDashboard';
+import { ReceptionView } from '@/components/reception/ReceptionView';
 import { ActiveTab } from '@/types/medipulse';
 import { Construction } from 'lucide-react';
 
@@ -27,7 +28,9 @@ export default function HomePage() {
             <OverviewDashboard onNavigate={(tab) => setActiveTab(tab)} />
           )}
 
-          {activeTab !== 'overview' && (
+          {activeTab === 'reception' && <ReceptionView />}
+
+          {activeTab !== 'overview' && activeTab !== 'reception' && (
             <div className="p-8 max-w-4xl mx-auto text-center mt-12">
               <div className="h-16 w-16 bg-slate-900 border border-slate-800 rounded-2xl flex items-center justify-center mx-auto mb-4 text-cyan-400">
                 <Construction className="h-8 w-8 animate-bounce" />
