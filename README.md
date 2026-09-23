@@ -7,6 +7,8 @@
 [![Tailwind CSS v4](https://img.shields.io/badge/Tailwind-v4.0.9-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-222222?logo=githubpages&logoColor=white)](https://olyxmintabansos-byte.github.io/medipulse-erp/)
+[![Author](https://img.shields.io/badge/Author-Olyx-10B981?style=flat-square&logo=github&logoColor=white)](https://github.com/olyxmintabansos-byte)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
@@ -63,5 +65,15 @@ npm run build
 
 ---
 
-## 📄 Lisensi
-Didistribusikan di bawah Lisensi MIT. Bebas digunakan untuk keperluan edukasi, portofolio, dan implementasi klinik mandiri.
+## 📄 Lisensi & Atribusi Hak Cipta
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by-Olyx-10B981?style=for-the-badge&logo=github" alt="Made by Olyx" />
+  <img src="https://img.shields.io/badge/%C2%A9%202026-Olyx-blue?style=for-the-badge" alt="Copyright 2026 Olyx" />
+</p>
+
+<p align="center">
+  Crafted with passion & precision by <strong><a href="https://github.com/olyxmintabansos-byte">Olyx</a></strong><br>
+  <strong>© 2026 by Olyx (@olyxmintabansos-byte)</strong>. All rights reserved.<br>
+  Didistribusikan di bawah naungan <a href="https://opensource.org/licenses/MIT">Lisensi MIT</a>.
+</p>
